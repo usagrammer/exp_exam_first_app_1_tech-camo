@@ -1,0 +1,17 @@
+.post {
+  border: 1px solid;
+  width: 40%;
+  margin-top: 30px;
+}
+
+.post[data-check="true"] {
+  background-color: skyblue;
+}
+
+.post * {
+  pointer-events: none;
+}
+
+.post-date {
+  color: gray;
+}
